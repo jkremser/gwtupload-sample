@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='progressbar'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.smartgwt.SmartGwt"/>
+
+    <inherits name="com.smartgwt.tools.SmartGwtTools"/>
+    <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+
+
+  <!-- Other module inherits -->
+  <!-- Include GWTUpload library -->
+    <inherits name="gwtupload.GWTUpload"/>
+    
+  <!-- Load dinamically predefined styles in the library when the application starts 
+    <stylesheet src="Upload.css"/>                          -->           
+
+  <!-- Specify the app entry point class.                         -->
+    <entry-point class='test.client.UploadSample'/>
+
+  <!-- Specify the paths for translatable code                    -->
+    <source path='client'/>
+    <source path='shared'/>
+
+</module>
